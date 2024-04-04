@@ -1,3 +1,5 @@
+/*
+
 function alterarStatus1() {
 
     let button1 = document.getElementById('button1');
@@ -41,9 +43,10 @@ function alterarStatus3() {
         }
     }
 }
+*/
 
-/*
-metodo do instrutor
+
+//   metodo do instrutor
 
 
 function alterarStatus(id) {
@@ -55,17 +58,12 @@ function alterarStatus(id) {
     alert(nomeJogo.textContent);
 
     if (imagem.classList.contains('dashboard__item__img--rented')) {
-    imagem.classList.remove('dashboard__item__img--rented');
-    botao.classList.remove('dashboard__item__button--return');
-    botao.textContent = 'Alugar';
-} else {
-    imagem.classList.add('dashboard__item__img--rented');
-    botao.classList.add('dashboard__item__button--return');
-    botao.textContent = 'Devolver';
+        imagem.classList.remove('dashboard__item__img--rented');
+        botao.classList.remove('dashboard__item__button--return');
+        botao.textContent = 'Alugar';
+    } else {
+        imagem.classList.add('dashboard__item__img--rented');
+        botao.classList.add('dashboard__item__button--return');
+        botao.textContent = 'Devolver';
+    }
 }
-
-}
-
-
-
-*/
