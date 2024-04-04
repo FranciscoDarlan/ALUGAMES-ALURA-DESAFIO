@@ -5,46 +5,42 @@ function alterarStatus1() {
     if (button1.innerHTML == 'Alugar') {
         button1.innerHTML = 'Devolver';
         button1.style.backgroundColor = '#01080E'
-    }else{
+    } else {
         if (button1.innerHTML == 'Devolver') {
             button1.innerHTML = 'Alugar';
-            button1.style.backgroundColor = '#1875E8'    
+            button1.style.backgroundColor = '#1875E8'
         }
     }
 }
 
-function alterarStatus2(){
+function alterarStatus2() {
     let button2 = document.getElementById('button2');
 
     if (button2.innerHTML == 'Alugar') {
         button2.innerHTML = 'Devolver';
         button2.style.backgroundColor = '#01080E'
-    }else{
+    } else {
         if (button2.innerHTML == 'Devolver') {
             button2.innerHTML = 'Alugar';
-            button2.style.backgroundColor = '#1875E8'    
+            button2.style.backgroundColor = '#1875E8'
         }
     }
-} 
+}
 
-function alterarStatus3(){
+function alterarStatus3() {
     let button3 = document.getElementById('button3');
-
-    let img3 = document.querySelector('.dashboard__item__img dashboard__item__img--rented');
-
-    alert(img3)
 
     if (button3.innerHTML == 'Alugar') {
         button3.innerHTML = 'Devolver';
         button3.style.backgroundColor = '#01080E';
-        img3.style.content = none;
-    }else{
+
+    } else {
         if (button3.innerHTML == 'Devolver') {
             button3.innerHTML = 'Alugar';
-            button3.style.backgroundColor = '#1875E8'    
+            button3.style.backgroundColor = '#1875E8';
         }
     }
-} 
+}
 
 /*
 metodo do instrutor
@@ -67,7 +63,6 @@ function alterarStatus(id) {
     botao.classList.add('dashboard__item__button--return');
     botao.textContent = 'Devolver';
 }
-
 
 }
 
